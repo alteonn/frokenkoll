@@ -1,0 +1,117 @@
+interface PageMetadata {
+  title: string;
+  description: string;
+  keywords: string[];
+}
+
+export const metadata: Record<string, PageMetadata> = {
+  home: {
+    title: "Frökenkoll | Skydda dina personuppgifter online",
+    description: "Vi hjälper dig att ta kontroll över dina personuppgifter och skydda din digitala integritet. Kostnadsfri guide för att dölja och ta bort personlig information från nätet.",
+    keywords: [
+      "personuppgifter online",
+      "digital integritet",
+      "skydda personuppgifter",
+      "ta bort personuppgifter",
+      "integritet på nätet",
+      "radera personuppgifter",
+      "dölja personuppgifter",
+      "personlig information online",
+      "skydda privatliv internet",
+      "ta bort information internet",
+      "personuppgifter sökmotorer",
+      "GDPR rättigheter",
+      "rätt att bli glömd",
+      "skydda identitet online",
+      "stoppa identitetsstöld",
+      "anonymitet internet",
+      "skydda personlig data",
+      "ta bort data internet",
+      "integritetsskydd online",
+      "personuppgifter borttagning",
+      "radera digital information",
+      "skydda privata uppgifter",
+      "ta bort sökresultat",
+      "digital säkerhet",
+      "personlig integritet",
+      "dataskydd online",
+      "sekretess internet",
+      "skydda online identitet",
+      "ta bort digitala spår",
+      "internet integritet guide"
+    ]
+  },
+  hitta: {
+    title: "Ta bort dig från Hitta.se | Komplett guide | Frökenkoll",
+    description: "Steg för steg guide för att ta bort dina personuppgifter från Hitta.se. Använd BankID för snabb borttagning och skydda din integritet.",
+    keywords: [
+      "ta bort hitta.se",
+      "radera hitta.se uppgifter",
+      "dölja information hitta.se",
+      "hitta.se borttagning",
+      "hur tar man bort sig från hitta.se",
+      "avregistrera hitta.se",
+      "ta bort nummer hitta.se",
+      "ta bort adress hitta.se",
+      "hitta.se personuppgifter",
+      "hitta.se integritet",
+      "hitta.se gdpr",
+      "hitta.se bankid",
+      "dölj information hitta.se",
+      "radera profil hitta.se",
+      "anonymitet hitta.se",
+      "hitta.se sekretess",
+      "ta bort telefonnummer hitta",
+      "dölja adress hitta.se",
+      "hitta.se dataskydd",
+      "ta bort sökresultat hitta",
+      "hitta.se radering",
+      "hitta.se avregistrering",
+      "ta bort personlig info hitta",
+      "hitta.se borttagning guide",
+      "hitta.se skydda uppgifter",
+      "hitta.se integritetsskydd",
+      "ta bort företagsinfo hitta",
+      "hitta.se personskydd",
+      "hitta.se användaruppgifter",
+      "hitta.se privacy"
+    ]
+  },
+  merinfo: {
+    title: "Ta bort dig från Merinfo | Guide & instruktioner | Frökenkoll",
+    description: "Lär dig hur du tar bort dina personuppgifter från Merinfo. Använd vår guide för att skydda din integritet och dölja dina uppgifter.",
+    keywords: [
+      "ta bort merinfo",
+      "radera merinfo uppgifter",
+      "dölja information merinfo",
+      "merinfo borttagning",
+      "hur tar man bort sig från merinfo",
+      "merinfo personuppgifter",
+      "merinfo gdpr",
+      "merinfo integritet",
+      "merinfo bankid",
+      "avregistrera merinfo",
+      "ta bort nummer merinfo",
+      "ta bort adress merinfo",
+      "dölj information merinfo",
+      "radera profil merinfo",
+      "anonymitet merinfo",
+      "merinfo sekretess",
+      "ta bort telefonnummer merinfo",
+      "dölja adress merinfo",
+      "merinfo dataskydd",
+      "ta bort sökresultat merinfo",
+      "merinfo radering",
+      "merinfo avregistrering",
+      "ta bort personlig info merinfo",
+      "merinfo borttagning guide",
+      "merinfo skydda uppgifter",
+      "merinfo integritetsskydd",
+      "ta bort företagsinfo merinfo",
+      "merinfo personskydd",
+      "merinfo användaruppgifter",
+      "merinfo privacy"
+    ]
+  }
+  // Fortsätt med samma mönster för övriga sidor...
+}

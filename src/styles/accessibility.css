@@ -1,0 +1,48 @@
+/* High contrast mode */
+.high-contrast {
+  --bg-opacity: 1;
+  --text-opacity: 1;
+}
+
+.high-contrast body {
+  background-color: white;
+  color: black;
+}
+
+.high-contrast a {
+  color: #0000EE;
+  text-decoration: underline;
+}
+
+.high-contrast button {
+  border: 2px solid currentColor;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

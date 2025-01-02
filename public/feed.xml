@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Frökenkoll - Skydda din integritet online</title>
+    <link>https://frokenkoll.se</link>
+    <description>Nyheter och uppdateringar om integritetsskydd och personuppgifter online</description>
+    <language>sv</language>
+    <item>
+      <title>Nya regler för personuppgifter på nätet</title>
+      <link>https://frokenkoll.se/blog/nya-regler-personuppgifter</link>
+      <description>Information om nya regler och lagar kring personuppgifter online</description>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
