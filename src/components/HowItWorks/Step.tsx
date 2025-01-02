@@ -21,8 +21,8 @@ export function Step({ icon: Icon, title, description, index, isLast }: StepProp
         {/* Icon and number */}
         <div className="flex-shrink-0">
           <div className="relative">
-            {/* Background shape */}
-            <div className="absolute inset-0 bg-red-100 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-300 transform -rotate-6" />
+            {/* Background shape aligned with icon */}
+            <div className="absolute inset-0 bg-red-100 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
             
             {/* Icon container */}
             <div className="relative bg-white w-16 h-16 rounded-2xl shadow-sm flex items-center justify-center group-hover:bg-red-50 transition-colors duration-300">

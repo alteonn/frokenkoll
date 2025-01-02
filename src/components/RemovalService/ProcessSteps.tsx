@@ -10,8 +10,8 @@ export function ProcessSteps() {
           className="group relative bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
           style={{ animationDelay: `${0.1 + index * 0.1}s` }}
         >
-          {/* Background shape */}
-          <div className="absolute inset-0 bg-red-100 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-300 transform -rotate-6" />
+          {/* Background shape aligned with icon */}
+          <div className="absolute inset-0 bg-red-100 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
           
           <div className="relative space-y-4">
             {/* Icon container */}
